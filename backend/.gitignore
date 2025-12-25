@@ -39,7 +39,7 @@ logs/
 *.sqlite3
 
 # Docker (optional - some people commit these)
-# docker-compose.override.yml
+docker-compose.override.yml
 
 # Testing
 .coverage
