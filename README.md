@@ -43,16 +43,16 @@ python run.py
 
 | Endpoint | Method | Description | Auth |
 |----------|--------|-------------|------|
-| `/auth/register` | POST | Register new user |  
-| `/auth/login` | POST | Login |  
-| `/auth/me` | GET | Get current user | 
-| `/vehicules/` | GET | Get my vehicles | 
-| `/vehicules/` | POST | Add vehicle | 
-| `/parkings/` | GET | List all parkings | 
-| `/places/` | GET | List all places | 
-| `/contrats/` | POST | Create contract | 
-| `/paiements/` | POST | Make payment | 
-| `/verifie/contrat/<id>` | GET | Get entry/exit history | 
+| `/auth/register` | POST | Register new user | NO |
+| `/auth/login` | POST | Login |  YES |
+| `/auth/me` | GET | Get current user | YES | 
+| `/vehicules/` | GET | Get my vehicles | YES|
+| `/vehicules/` | POST | Add vehicle | YES|
+| `/parkings/` | GET | List all parkings | YES|
+| `/places/` | GET | List all places | YES|
+| `/contrats/` | POST | Create contract | YES|
+| `/paiements/` | POST | Make payment | YES|
+| `/verifie/contrat/<id>` | GET | Get entry/exit history | YES|
 
 
 ## Project Structure
